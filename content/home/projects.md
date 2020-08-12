@@ -1,77 +1,62 @@
 +++
 # A Projects section created with the Portfolio widget.
-widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "accomplishments"   
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 65  # Order that this section will appear.
+weight = 100  # Order that this section will appear.
 
-title = "Projects"
+title = "Selected Projects"
 subtitle = ""
 
-[content]
-  # Page type to display. E.g. project.
-  page_type = "project"
-  
-  # Filter toolbar (optional).
-  # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
-  # To show all items, set `tag` to "*".
-  # To filter by a specific tag, set `tag` to an existing tag name.
-  # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
-  
-  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
-  filter_default = 0
-  
-  # [[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
-  
-  # [[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
-  
-  # [[content.filter_button]]
-  #   name = "Other"
-  #   tag = "Demo"
+# Date format
+#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
+date_format = "Jan 2006"
 
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+# Accomplishments.
+#   Add/remove as many `[[item]]` blocks below as you like.
+#   `title`, `organization` and `date_start` are the required parameters.
+#   Leave other parameters empty if not required.
+#   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-  # Toggle between the various page layout types.
-  #   1 = List
-  #   2 = Compact
-  #   3 = Card
-  #   5 = Showcase
-  view = 3
-
-  # For Showcase view, flip alternate rows?
-  flip_alt_rows = false
-
-[design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
+[[item]]
+  organization = "University of Alberta"
+  #organization_url = ""
+  title = "Deep Learning-Based Collaborative Filtering for Enhanced Learning Outcome Modeling"
+  #url = "https://www.csc.edu.cn/chuguo/s/1613"
+  #certificate_url = "https://www.datacamp.com"
+  date_start = "2019-09-01"
+  date_end = ""
+  description = """Given the importance of accurate prediction of learners’ learning outcomes (e.g., correctly solving a problem or not) for successful personalized learning, this project aims to develop novel cognitive modeling methods to predict learners’ learning outcomes on future problems by exploiting their problem-solving process and sequential problem-solving results based on a machine learning approach named collaborative filtering (CF)."""
   
-  # Background color.
-  # color = "navy"
+[[item]]
+  organization = "University of Alberta"
+  #organization_url = ""
+  title = "Influential Contextual Factors of Academic Success: Evidence from International Large-Scale Assessments"
+  #url = "https://www.csc.edu.cn/chuguo/s/1613"
+  #certificate_url = "https://www.datacamp.com"
+  date_start = "2018-09-01"
+  date_end = ""
+  description = """Investigate what contributes to student success in science, mathemetics, and reading through advanced statistical or machine learning analyses of PISA, PIRLS, and TIMSS data."""
   
-  # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
+[[item]]
+  organization = "University of Alberta"
+  #organization_url = ""
+  title = "Predictive Modeling of Course Performance based on Student Temporal Behaviors in Learning Management Systems"
+  #url = "https://www.csc.edu.cn/chuguo/s/1613"
+  #certificate_url = "https://www.datacamp.com"
+  date_start = "2018-10-01"
+  date_end = ""
+  description = """Develop generic and simple modeling frameworks based on recurrent neural networks for early detection of at-risk students using their daily behaviors in the learning management system."""  
   
-  # Background image.
-  # image = "background.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-
-  # Text color (true=light or false=dark).
-  # text_color_light = true  
+[[item]]
+  organization = "University of Alberta"
+  #organization_url = ""
+  title = "Informing and Validating Digital Game-Based Assessment: Game Analytics of Process Data"
+  #url = "https://www.csc.edu.cn/chuguo/s/1613"
+  #certificate_url = "https://www.datacamp.com"
+  date_start = "2019-01-01"
+  date_end = ""
+  description = """Investigate and demonstrate how to apply machine learning approaches to analyze student process data for validating and informing digital game-based assessments with an evidence-centered game design."""  
   
-[advanced]
- # Custom CSS. 
- css_style = ""
- 
- # CSS class.
- css_class = ""
+  
 +++
-
