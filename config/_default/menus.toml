@@ -9,7 +9,7 @@
   weight = 10
 
 [[main]]
-  name = "Selected Awards & Scholarships"
+  name = "Awards & Scholarships"
   url = "#accomplishments"
   weight = 20
 #[[main]]
